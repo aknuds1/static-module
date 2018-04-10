@@ -1,5 +1,5 @@
 {
-  "name": "static-module",
+  "name": "@arve.knudsen/static-module",
   "version": "2.2.3",
   "description": "convert module usage to inline expressions",
   "main": "index.js",
@@ -31,9 +31,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/substack/static-module.git"
+    "url": "git://github.com/aknuds1/static-module.git"
   },
-  "homepage": "https://github.com/substack/static-module",
+  "homepage": "https://github.com/aknuds1/static-module",
   "keywords": [
     "ast",
     "static",
