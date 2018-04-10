@@ -30,7 +30,7 @@ module.exports = function parse (modules, opts) {
 
     var output = through();
     var body;
-    return duplexer(concat(function (buf) {
+    return duplexer(concat({ encoding: 'buffer' }, function (buf) {
         try {
             body = buf.toString('utf8').replace(/^#!/, '//#!');
             var matches = false;
